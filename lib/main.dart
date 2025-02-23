@@ -11,8 +11,7 @@ import 'app/bindings/dependency_injection.dart';
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();
   // DeviceUtils.lockDevicePortrait();
-  // DependencyInjection di = DependencyInjection();
-  // di.dependencies();
+
   runApp(
     const MyApp(), // Wrap your app
   );
